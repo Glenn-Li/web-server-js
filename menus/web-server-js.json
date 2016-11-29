@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle web-server-js",
+        "command": "web-server-js:WebServer"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "web-server-js",
+          "submenu": [
+            {
+              "label": "SartServer",
+              "command": "web-server-js:WebServer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
